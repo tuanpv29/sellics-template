@@ -1,0 +1,388 @@
+
+@media screen and ( min-width: 782px ){
+		body.admin-bar .mobmenu, body.admin-bar .mobmenu-panel, .show-nav-left.admin-bar .mobmenu-overlay, .show-nav-right.admin-bar .mobmenu-overlay {
+			top: 32px!important;
+		}
+				body.admin-bar .mobmenu-search-holder {
+				top: 102px!important;
+		}
+}
+
+@media screen and ( max-width: 782px ){
+	body.admin-bar .mobmenu, body.admin-bar .mobmenu-panel, .show-nav-left.admin-bar .mobmenu-overlay, .show-nav-right.admin-bar .mobmenu-overlay {
+		top: 46px!important;
+	}
+
+	body.admin-bar .mob-menu-header-banner {
+		top: 0px!important;
+	}
+		body.admin-bar .mobmenu-search-holder {
+		top: 116px!important;
+	}
+	body.admin-bar  .mob-menu-slideout .mobmenu-search-holder {
+		top: 70px!important;
+	}
+
+}
+
+@media screen and ( max-width: 479px ) {
+	.mob-menu-overlay .mobmenu-content {
+		padding-top: 5%;
+	}
+}
+
+@media screen and ( max-width: 782px ) {
+	.mob-menu-overlay .mobmenu-content {
+		padding-top: 10%;
+	}
+}
+
+@media screen and ( min-width: 782px ) {
+	#mobmenu-footer li:hover {
+		background-color: ;
+	}
+	#mobmenu-footer li:hover i {
+		color: ;
+	}
+}
+
+@media only screen and (min-width:1025px){
+	.mob_menu, .mobmenu-panel, .mobmenu, .mobmenu-cart-panel, .mobmenu-footer-menu-holder, .mobmenu-right-panel, .mobmenu-left-panel  {
+		display: none!important;
+	}
+}
+/* Our css Custom Options values */
+@media only screen and (max-width:1024px){
+	.header nav {
+		display:none !important;
+	}
+}
+
+
+@media only screen and (max-width:1024px) {
+
+			
+	.mobmenur-container i {
+		color: #222;
+	}
+	.mobmenul-container i {
+		color: #a0a0a0;
+	}
+	.mobmenul-container img {
+		max-height:  70px;
+		float: left;
+	}
+	.mobmenur-container img {
+		max-height:  70px;
+		float: right;
+	}
+	.mob-expand-submenu i {
+		font-size: 18px;
+	}
+	#mobmenuleft li a , #mobmenuleft li a:visited, .mobmenu-content h2, .mobmenu-content h3, .show-nav-left .mob-menu-copyright, .show-nav-left .mob-expand-submenu i {
+		color: #ffffff;
+
+	}
+	.mob-cancel-button {
+		font-size: 30px!important;
+	}
+
+	/* 3rd Level Left Menu Items Background color on Hover*/
+	.mobmenu-content #mobmenuleft .sub-menu  .sub-menu li a:hover {
+		color: #ffffff;
+	}
+	/* 3rd Level Left Menu Items Background color on Hover*/
+	.mobmenu-content #mobmenuleft .sub-menu .sub-menu li:hover {
+		background-color: rgba(255,255,255,0.23);
+	}
+	.mobmenu-content #mobmenuleft li:hover, .mobmenu-content #mobmenuright li:hover  {
+		background-color: #082a4d;
+	}
+	.mobmenu-content #mobmenuright li:hover  {
+		background-color: #666 ;
+	}
+	/* 3rd Level Right Menu Items Background color on Hover*/
+	.mobmenu-content #mobmenuright .sub-menu .sub-menu li:hover {
+		background-color: #666;
+	}
+	/* 3rd Level Right Menu Items Background color on Hover*/
+	.mobmenu-content #mobmenuright .sub-menu  .sub-menu li a:hover {
+		color: #ccc;
+	}
+
+		.mobmenu-content #mobmenuleft .sub-menu {
+		background-color: rgba(255,255,255,0.23) ;
+		margin: 0;
+		color: #ffffff ;
+		width: 100%;
+		position: initial;
+		height: 100%;
+	}
+	.mob-menu-left-bg-holder {
+					background: url(https://sellics.com/wp-content/uploads/2021/04/grid-bg-dots1.svg);
+				opacity: 0.9;
+		background-attachment: fixed ;
+		background-position: center top ;
+		-webkit-background-size:  auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	.mob-menu-right-bg-holder { 
+				opacity: 1;
+		background-attachment: fixed ;
+		background-position: center top ;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size:  cover;
+	}
+		.mobmenu-content #mobmenuleft .sub-menu a {
+		color: #ffffff ;
+	}
+	.mobmenu-content #mobmenuright .sub-menu  a {
+		color: #fff ;
+	}
+	.mobmenu-content #mobmenuright .sub-menu .sub-menu {
+		background-color: inherit;
+	}
+	.mobmenu-content #mobmenuright .sub-menu {
+		background-color: #3a3a3a ;
+		margin: 0;
+		color: #fff ;
+		position: initial;
+		width: 100%;
+	}
+	#mobmenuleft li:hover a, #mobmenuleft li:hover i {
+		color: #5ad3fd;
+	}
+	#mobmenuright li a , #mobmenuright li a:visited, .show-nav-right .mob-menu-copyright, .show-nav-right .mob-expand-submenu i {
+		color: #666 ;
+	}
+	#mobmenuright li a:hover {
+		color: #FFF ;
+	}
+	.mobmenul-container {
+		top: 0px;
+		margin-left: 5px;
+		margin-top: 11px;
+		height: 70px;
+		float: left;
+	}
+	.mobmenur-container {
+		top: 10px;
+		margin-right: 5px;
+		margin-top: 11px;
+	}
+		.mob-menu-logo-holder {
+		margin-top:   11px;
+		text-align:   center;
+		margin-left:  0;
+		margin-right: 0;
+		height:       70px;
+			}
+	.mob-menu-header-holder {
+		width:  100% ;
+		background-color: transparent ;
+		height: 70px ;
+		position:absolute;
+	}
+	body.mob-menu-overlay, body.mob-menu-slideout, body.mob-menu-slideout-over, body.mob-menu-slideout-top {
+		padding-top: 0px;
+	}
+		.mobmenul-container, .mobmenur-container{
+		position: absolute; 
+	}
+	.mobmenu-left-panel {
+		background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);;;
+		width:  70%;  
+	}
+	.mobmenu-right-panel {
+		background-color:#F7F7F7;		width:  270px; 
+	}
+	.show-nav-left .mobmenu-overlay, .show-nav-right .mobmenu-overlay, .show-mob-menu-search .mobmenu-overlay  {
+		background: rgba(255,255,255,0.11);
+	}
+	.mob-menu-slideout-top .mobmenu-overlay {
+		display:none!important;
+	}
+	.mob-menu-slideout.show-nav-left .mobmenu-push-wrap, .mob-menu-slideout.show-nav-left .mob-menu-header-holder {
+		-webkit-transform: translateX(70%);
+		-moz-transform: translateX(70%);
+		-ms-transform: translateX(70%);
+		-o-transform: translateX(70%);
+		transform: translateX(70%);
+	}
+	.mob-menu-slideout.show-nav-right .mobmenu-push-wrap, .mob-menu-slideout.show-nav-right .mob-menu-header-holder {
+		-webkit-transform: translateX(-270px);
+		-moz-transform: translateX(-270px);
+		-ms-transform: translateX(-270px);
+		-o-transform: translateX(-270px);
+		transform: translateX(-270px);
+	}
+	.mob-menu-slideout-top .mobmenu-panel {
+		width:  100%;
+		height: 100%;
+		z-index: 1;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		max-height: 100%;
+		-webkit-transform: translateY(-100%);
+		-moz-transform: translateY(-100%);
+		-ms-transform: translateY(-100%);
+		-o-transform: translateY(-100%);
+		transform: translateY(-100%);
+	}
+	.mob-menu-slideout-top.show-nav-left .show-panel, .mob-menu-slideout-top.show-nav-right .show-panel  {
+		-webkit-transform: translateY(0px);
+		-moz-transform: translateY(0px);
+		-ms-transform: translateY(0px);
+		-o-transform: translateY(0px);
+		transform: translateY(0px);
+		z-index: 300000;
+	}
+	.mob-menu-slideout-over.show-nav-left .mobmenu-left-panel {
+		overflow: hidden;
+	}
+	.show-nav-left .mobmenu-panel.show-panel , .show-nav-right .mobmenu-panel.show-panel {
+		z-index: 300000;
+	}
+	/* Hides everything pushed outside of it */
+	.mob-menu-slideout .mobmenu-panel, .mob-menu-slideout-over .mobmenu-panel, .mob-menu-slideout .mobmenu-cart-panel, .mob-menu-slideout-over .mobmenu-cart-panel {
+		position: fixed;
+		top: 0;
+		height: 100%;
+		overflow-y: auto;
+		overflow-x: auto;
+		z-index: 10000;
+		opacity: 1;
+	}
+	/*End of Mobmenu Slide Over */
+	.mobmenu .headertext { 
+		color: #222 ;
+		text-decoration: none;
+	}
+	.headertext span {
+		position: initial;
+		line-height: 70px;
+	}
+	.mobmenu-search-holder {
+		top: 70px;
+	}
+	/*Premium options  */
+	
+	/* Mobile Menu Frontend CSS Style*/
+	body.mob-menu-overlay, body.mob-menu-slideout, body.mob-menu-slideout-over, body.mob-menu-slideout-top  {
+		overflow-x: hidden;
+	}
+	
+	.mobmenu-left-panel li a, .leftmbottom, .leftmtop{
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	.mobmenu-content li > .sub-menu li {
+		padding-left: calc(0*1%);
+	}
+
+	.mobmenu-right-panel li, .rightmbottom, .rightmtop{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.mobmenul-container i {
+		line-height: 35px;
+		font-size: 35px;
+		float: left;
+	}
+	.left-menu-icon-text {
+		float: left;
+		line-height: 35px;
+		color: #222;
+	}
+	.mobmenu-left-panel .mobmenu-display-name {
+		color: #ffffff;
+	}
+	.right-menu-icon-text {
+		float: right;
+		line-height: 30px;
+		color: #222;
+	}
+	.mobmenur-container i {
+		line-height: 30px;
+		font-size: 30px;
+		float: right;
+	}
+	.nav, .hide {
+		display: none!important;
+	}
+	
+	.mob-standard-logo {
+		display: inline-block;
+		height:70px!important;	}
+	.mob-retina-logo {
+		height:70px!important;	}
+	.mobmenu-content #mobmenuleft > li > a:hover {
+		background-color: #082a4d;
+	}
+
+	.mobmenu-content #mobmenuright > li > a:hover {
+		background-color: #666;
+	}
+	.mobmenu-left-panel .mob-cancel-button {
+		color: #ffffff;
+	}
+	.mobmenu-right-panel .mob-cancel-button {
+		color: #666;
+	}	
+	
+}
+
+
+.mob-menu-logo-holder > .headertext span,.mobmenu input.mob-menu-search-field {
+	font-family:inherit;
+	font-size:20px;
+	font-weight:inherit;
+	font-style:normal;
+	letter-spacing:normal;
+	text-transform:none;
+}
+
+.left-menu-icon-text {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	font-style:normal;
+	line-height:1.5em;
+	letter-spacing:normal;
+	text-transform:none;
+}
+
+#mobmenuleft .mob-expand-submenu,#mobmenuleft > .widgettitle,#mobmenuleft li a,#mobmenuleft li a:visited,#mobmenuleft .mobmenu-content h2,#mobmenuleft .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name, .mobmenu-content .mobmenu-tabs-header li {
+	font-family:inherit;
+	font-size:16px;
+	font-weight:inherit;
+	font-style:normal;
+	line-height:1.5em;
+	letter-spacing:normal;
+	text-transform:none;
+}
+
+.right-menu-icon-text {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	font-style:normal;
+	line-height:1.5em;
+	letter-spacing:normal;
+	text-transform:none;
+}
+
+#mobmenuright li a,#mobmenuright li a:visited,#mobmenuright .mobmenu-content h2,#mobmenuright .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	font-style:normal;
+	line-height:1.5em;
+	letter-spacing:normal;
+	text-transform:none;
+}
+
+.mobmenu-content{margin-top:0 !important}.mob-menu-header-holder{left:0;width:30px}.mobmenul-container i{line-height:51px}#mobmenuleft li a{font-family:Montserrat,Sans-serif}#mobmenuleft .menu-item a span::after,#mobmenuleft a > i.fa,.Subtitle > span::after{display:none !important}input[type=email],ul.leftmbottom input[type=text]{width:100%}ul;leftbottom input:placeholder {color: #ccc;}.header{z-index:9998 !important}@media only screen and (max-width: 480px){.TopHeader #logo{margin-left:30px}}.mobmenu-content span.tag{text-transform: uppercase; background-color: #5AD3FD; color: #082A4D;font-size: 10px; font-weight: 600;padding: 1px 5px;border-radius: 3px; margin-left: 3px;}
